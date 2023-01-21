@@ -1,0 +1,38 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+}
+
+.menu li a {
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #242323;
+}
+
+.menu li a.button {
+  background-color: #000000;
+  color: #FEFEFE;
+  border-radius: 3px;
+  padding: 13px;
+  
+
+}
