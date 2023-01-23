@@ -1,8 +1,8 @@
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +30,77 @@ body{
 
 .menu li a.button {
   background-color: #000000;
-  color: #FEFEFE;
+  color: #fefefe;
   border-radius: 3px;
   padding: 13px;
-  
+}
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f6f5;
+  align-items: center;
+  position: absolute;
+  width: 900px;
+  height: 489px;
+  left: 500px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+h1 {
+  position: absolute;
+  width: 225.15px;
+  height: 224.68px;
+  right: 582.82px;
+  top: 114.47px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45.6px;
+  line-height: 57px;
+  color: #000000;
+}
+
+.descricao {
+  position: absolute;
+  width: 287.85px;
+  height: 27.55px;
+  left: 104.03px;
+  top: 358.15px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2px;
+  line-height: 23px;
+  letter-spacing: -0.05em;
+
+  color: #191818;
+}
+
+.button-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 16.15px;
+
+  position: absolute;
+  width: 105px;
+  height: 38.95px;
+  left: 105px;
+  top: 400.9px;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+}
+
+.img-banner {
+  position: absolute;
+  width: 422px;
+  height: 377px;
+  left: 423px;
+  top: 106px;
+
+  background: url(incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview.png);
 }
